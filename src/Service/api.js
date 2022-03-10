@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // const usersUrl = 'http://localhost:3003/users';
-const usersUrl = 'http://localhost:5001/users';
+const usersUrl = 'http://172.31.15.148:5001/users';
 
 export const getUsers = async (id) => {
     id = id || '';
